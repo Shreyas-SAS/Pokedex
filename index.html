@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pokedex</title>
+  </head>
+  <body>
+    <div class="bar">
+      <div><h1>Pokédex</h1></div>
+      <div class="select-box">
+        <label for="type-select">Filter by type:</label>
+        <select name="types" id="type-select">
+          <option value="">All types</option>
+          <option value="fire">Fire</option>
+          <option value="grass">Grass</option>
+          <option value="electric">Electric</option>
+          <option value="water">Water</option>
+          <option value="ground">Ground</option>
+          <option value="rock">Rock</option>
+          <option value="fairy">Fairy</option>
+          <option value="poison">Poison</option>
+          <option value="bug">Bug</option>
+          <option value="dragon">Dragon</option>
+          <option value="psychic">Psychic</option>
+          <option value="flying">Flying</option>
+          <option value="fighting">Fighting</option>
+          <option value="normal">Normal</option>
+        </select>
+      </div>
+    </div>
+    
+    <div class="poke-container" id="poke-container"></div>
+
+    <!-- Design inspired by this Dribbble shot: https://dribbble.com/shots/5611109--Pokemon -->
+    <script src="script.js"></script>
+  </body>
+</html>
